@@ -1,11 +1,9 @@
 class Main {
 
   public static void main(String[] args) {
-    exo1();
-    System.out.println("");    
+    chien medor = new chien("caniche ", "blanc ",17);
+    System.out.println(medor);
+    medor.aboyer();
+    medor.dormir();
   }
 }
-
-public static void exo1() {
-    
-  }
